@@ -18,7 +18,7 @@ public class Library {
                     System.out.println("Книга "+title+" успешно выдана!");
                     return;
                 } else {
-                    throw new NoAvailableCopiesException("Доступных копий книги '"+title+"' нет в наличии.");
+                    throw new NoAvailableCopiesException("Доступных копий книги "+title+" нет в наличии.");
                 }
             }
         }
